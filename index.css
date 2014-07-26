@@ -1,0 +1,89 @@
+/* Body and key element styles */
+body {
+	background-color: #FFFFFF;
+	background-image: url("images/background2.png");
+	background-repeat: repeat;
+	background-attachment: fixed;
+	background-position:center
+	;
+	}
+	
+/*head {
+	border-bottom: 1px solid black;text-align: center;
+}*/
+
+p{
+	color: #800000;text-align: center;white-space: pre-line;text-align: left;
+}
+
+/*Content Style for Homepage*/
+.middle{
+	position:absolute;left: 10px; right:10px;top: 500px;;background-color:#FFD4DE;color: #FA0499;
+	border:1px dotted grey;margin-left: 20%;margin-right: 20%;margin-top: -4.5%;
+}
+.right{
+	position:absolute;right:300px;width:295px;background-color:#FFD4DE;color: #FA0499;
+	border:1px dotted grey;	margin-top: 22%;
+}
+.left{
+	position:absolute;left:298px;width:520px;background-color:#FFD4DE;color: #FA0499;
+	border:1px dotted grey;margin-top: 22%;}
+ul{
+	list-style: square inside url('images/arrow copy.png');color: #800000;white-space: pre-line;
+}
+
+/*Content Style for Other pages*/
+.middle1{
+	position:absolute;left: 10px; right:10px;top: 500px;;background-color:#FFD4DE;color: #FA0499;
+	border:1px dotted grey;margin-left: 20%;margin-right: 20%;margin-top: -2%;
+}
+
+
+
+/*Navigation Bar Styles for Homepage*/
+ul#nav {
+	list-style: none;margin-left: 20%;margin-right: 20%;padding: 7px 0;border-bottom: 1px solid #CCC;
+font-weight: bold;text-align: center;font-size:20px; white-space: nowrap; margin-top: -4%;
+}
+ul#nav li {
+	display: inline;margin: 0 3px;
+}
+ul#nav a {
+	text-decoration: none;padding: 0 0 3px;border-bottom: 4px solid #FFC1C1;color: #666; 
+}
+
+ul#nav a#current {
+	border-color: #696969;color:#483D8B
+}
+ul#nav a:hover {
+	border-color: #FFA91F;color: #FF1493
+}
+
+/*Navigation Bar Styles for other pages*/
+ul#nav1 {
+	list-style: none;margin-left: 20%;margin-right: 20%;padding: 7px 0;border-bottom: 1px solid #CCC;
+font-weight: bold;text-align: center;font-size:20px; white-space: nowrap; margin-top: -2%;
+}
+ul#nav1 li {
+	display: inline;margin: 0 3px;
+}
+ul#nav1 a {
+	text-decoration: none;padding: 0 0 3px;border-bottom: 4px solid #FFC1C1;color: #666; 
+}
+
+ul#nav1 a#current {
+	border-color: #696969;color:#483D8B
+}
+ul#nav1 a:hover {
+	border-color: #FFA91F;color: #FF1493
+}
+
+
+
+
+
+/*Link Style*/
+a:link {color:#800000;}    
+a:visited {color:#800000;} 
+a:hover {color:#F56298;}   
+a:active {color:#F56298;}
