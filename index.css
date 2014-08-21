@@ -1,92 +1,130 @@
 /* Body and Key Element Styles */
 body {
-	background-image:url(images/background2.png);
-	background-repeat: repeat;
-	font-size:100%;
-	margin-left: auto;
-	margin-right: auto;	
-	font-family: nobileregular, arial, sans-serif;
-}
-
-header {
 	background-color: #f46a6a;
-	width: 960px;
-      height: 300px;
-	margin: 0px 10px 10px 10px;
-	margin-left: auto;
-	margin-right: auto;
+	font-size:100%;
+	margin: 0 auto;	
+	font-family: nobileregular, American Typewriter, sans-serif;
+    line-height: 1.5em;
 }
 
-/*P Styles*/
-
-p{
-	color: #800000;
-	white-space: pre-line;
-	text-align:  justify;
+#allcontent_mainpage {
+	color: #003366;
+	width: 1100px;
+    margin: 0 auto;
+	margin-top: 330px;
 }
 
-.middle{
-	position:absolute;
-	left: 10px; 
-	right:10px;
-	top: 400px;
-	background-color:#FFD4DE;
-	color: #FA0499;
-	border:1px dotted grey;
-	margin-left: 20%;
-	margin-right: 20%;
-	margin-top: -4.5%;
-	padding: 25px;
+#allcontent_otherpages {
+	color: #003366;
+	width: 1100px;
+	margin: 0 auto;
 }
+
+#header_mainpage {
+	position: absolute;
+	top: 125px;
+	left: 380px;
+}
+
+
+#header_otherpages {
+    margin: 0 auto;
+	margin-top: 75px;
+}
+
+h1{color: black;
+	font-size: 27px;
+}
+
+.columu{
+-moz-column-count:2; /* Firefox */
+-webkit-column-count:2; /* Safari and Chrome */
+column-count:2;
+
+-moz-column-gap:30px; /* Firefox */
+-webkit-column-gap:30px; /* Safari and Chrome */
+column-gap:30px;
+}	
 
 /*Link Styles*/
 
 a:link {
-	color:#800000;
+	color:#2980b9;
 }    
 a:visited {
-	color:#800000;
+	color:#2980b9;
 } 
 a:hover {
-	color:#F56298;
+	color:#8e44ad;
 }   
 a:active {
-	color:#F56298;
+	color:#8e44ad;
 }
 
 /*Content Styles*/
 ul{
 	list-style: square inside url('images/arrow copy.png');
-	color: #800000;
+	color: #2980b9;
 	white-space:pre-line;
 }
 
-section#about_website {
-	display: table-cell;
-	background-color: #FFE8C0;
-	width: 20px;
-	padding:10px;
-	border:1px dotted grey;
+section#top_content {
+    background-color: #FFE8C0;
+    margin:10px 0px 5px 0px; 
+    padding: 20px 30px 20px 30px;
+	border-radius:25px;
 }
 
-section#about_blythe {
-	display: table-cell;
-	background-color: #FFE8C0;
-	width: 20px;
-	padding: 15px;
-	border:1px dotted grey;
+section#left_content {
+    background-color: #FFE8C0;
+    width: 685px;
+	height: 350px;
+    padding: 20px 30px 20px 30px;
+    float: left;
+	border-radius:25px;
+	border-right:2px dotted grey;
 
 }
 
-section#aside{
-	display: table-cell;
+
+section#right_content{
 	background-color:#FFE8C0;
 	font-size: 105%;
-	width: 100px;
-	padding: 15px;
-      text-align: left;
-	border:1px dotted grey;
+	width: 293px;
+	height: 350px;
+    padding: 20px 30px 20px 30px;
+    text-align: left;
+    float: right;
+	border-radius:25px;
+
 }
+
+section#left_content_other {
+    background-color: #FFE8C0;
+    width: 685px;
+	height: 600px;
+    padding: 20px 30px 20px 30px;
+    float: left;
+	border-radius:25px;
+    margin-top: 10px;
+	border-right:2px dotted grey;
+
+}
+
+section#right_content_other{
+	background-color:#FFE8C0;
+	font-size: 105%;
+	width: 293px;
+	height: 600px;
+    padding: 20px 30px 20px 30px;
+    text-align: left;
+    float: right;
+	border-radius:25px;
+    margin-top: 10px;
+
+}
+
+
 
 #tableContainer {
 	display: table;
@@ -97,25 +135,30 @@ section#aside{
 	display: table-row;
 }
 
-#allcontent {
-	width: 960px;
-	padding-top: 25px;
-	background-color: #f46a6a;
-      margin-left: 25%;
-	margin-right: 25%;
+
+#bottom_images{
+	position: absolute;
+	top: 1000px;
+    bottom:200px; 	
+    left: 380px;
+	font-size: 110%;
+	width: 1100px;
+	height: 400px;
+	padding: 20px 20px 20px 20px;
+    margin: 0 auto;
 }
+
+
+
+
 /*Navigation Bar Styles*/
-ul#nav {
+ul#nav{
 	list-style: none;
-	margin-left: 0%;
-	margin-right: 0%;
-	padding: 7px 0;
-	border-bottom: 1px solid #CCC;
+    padding-bottom: 8px;
 	font-weight: bold;
 	text-align: center;
 	font-size:20px; 
-	white-space: nowrap; 
-	margin-top: -4%;
+	white-space: nowrap;
 }
 
 ul#nav li {
@@ -126,10 +169,10 @@ ul#nav a {
 	text-decoration: none;
 	padding: 0 0 3px;
 	border-bottom: 4px solid #ffffff;
-	color: #FFDC8E; 
+    color: #F7F5F2; 
 }
 
-ul#nav a#current {
+ul#nav a:current {
 	border-color: #696969;
 	color:#483D8B
 }
@@ -138,76 +181,43 @@ ul#nav a:hover {
 	color: #ffffff
 }
 
-/*Blythe gallery page specific styles*/
-a:link .image_wall {
-opacity:0.6;filter:alpha(opacity=50);
-}
-
-a:hover .image_wall {
-opacity:10.0;filter:alpha(opacity=100);
-}
-
-div .img{
-    margin:3px; 
-    border:1px 
-    solid #bebebe;
-    height:auto;
-    width:auto; 
-    float:left;
-    text-align:center;
-  }
-
-div .img img{
-  display:inline;
-  margin:3px;
-  border:1px 
-  solid #bebebe;
-}
-div .img a:hover img{
-    border:1px 
-    solid #333333;
-  }
-div .desc{
-  text-align:center;
-  font-weight:normal;
-  width:150px; 
-  font-size:12px; 
-  margin:10px 5px 10px 5px;
-}
-
-
-section#img{
-	display: table-cell;
-	background-color:#FFE8C0;
-	width: 10px;
-	padding: 11px;
-	border:1px dotted grey;
-}
 
 /*Footer Styles*/
 #footer-left {
+	position: absolute;
+	top: 1260px;
 	font-size:100%;
 	line-height: normal;
 	clear: left;
 	padding: 15px;
 	width: 50%;
 	text-align: left;
+	width: 1070px;
+    height: 50px;
 }
+
+
+#footer-disclaimer{
+	position: absolute;
+	top: 1330px;
+	font-size:60%;
+	line-height: normal;
+	clear: left;
+	padding: 15px;
+	text-align: justify;
+	width: 1070px;
+    height: 50px;
+}
+
 
 #footer-right {
 	font-size: 90%;
 	line-height: normal;
-	width: 50%;
 	float: right;
 	text-align: right;
+/*	margin-top: 20px;
+*/
 }
 
-#footer-disclaimer{
-	font-size:50%;
-	line-height: normal;
-	clear: left;
-	padding: 15px;
-	width: 90%;
-	text-align: justify;
-}
+
 

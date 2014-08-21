@@ -1,0 +1,50 @@
+/*Blythe Gallery Web Page Specific Styles*/
+
+#imagecontent {
+	width: 1100px;
+  margin-left: 250px;
+  margin-top: 10px;
+
+	color: #003366;
+}
+
+a:link .image_wall {
+  opacity:0.6;
+  filter:alpha(opacity=50);
+}
+
+a:hover .image_wall {
+  opacity:10.0;
+  filter:alpha(opacity=100);
+}
+
+div.img{
+	display: table-cell;
+    background-color:#FFE8C0;
+    padding: 11px;
+    border:1px dotted grey;
+    margin:3px; 
+    height:auto;
+    width:auto; 
+    text-align:left;
+  }
+
+div.img img{
+  display:inline;
+  margin:3px;
+  border:1px solid #bebebe;
+}
+
+div.img a:hover img{
+  border:1px solid #333333;
+}
+
+div.desc{
+  text-align:center;
+  font-weight:normal;
+  width:150px; 
+  font-size:12px; 
+  margin:10px 5px 10px 5px;
+}
+
+*/
